@@ -1,0 +1,82 @@
+body {
+  font-family: 'Lucida Sans Unicode';
+  background: #16BFFD;
+  background: -webkit-linear-gradient(to left, #16BFFD , #CB3066);
+  background: linear-gradient(to left, #16BFFD , #CB3066);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #303030;
+  color: #CB3066;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: #16BFFD;
+  color: #303030;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.easy {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hard {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.done {
+  background-color: #21D351;
+  transition: background-color 1s;
+}
+
+.on {
+  background-color: #16BFFD;
+  transition: all 0.5s;
+}
+
+.off {
+  background-color: #303030;
+  transition: all 0.5s;
+}
+
+.off:hover {
+  background-color: #3D3D3D;
+}
